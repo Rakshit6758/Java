@@ -1,0 +1,22 @@
+public class Greatest3  // our class is Greatest3
+{
+  public static void main(String args[])
+  {
+   int a,b,c;
+    a=Integer.parseInt(args[0]);
+    b=Integer.parseInt(args[1]);
+    c=Integer.parseInt(args[2]);
+   if(a>b && a>c)
+     {
+       System.out.println(  a+"is greater"); // if a is greater out of all the after checking the condition
+     }
+    else if(b>a && b>c)
+     {
+        System.out.println( b+"is greater");  // if a is greater out of all the after checking the condition
+     }
+    else
+     {
+        System.out.println( c+"is greater"); // if a is greater out of all the after checking the condition
+     }
+  }
+}
